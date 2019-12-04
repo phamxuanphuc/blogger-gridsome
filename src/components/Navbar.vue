@@ -1,7 +1,7 @@
 <template>
   <nav class="uk-navbar-container uk-margin navbar_top">
     <div class="uk-container">
-      <div class="uk-navbar-left ">
+      <div class="uk-navbar-left navbar_left">
         <g-link class="uk-navbar-item  uk-logo" href="/">
           <g-image src="~/assets/images/impose-logo.png" width="150" />
         </g-link>
@@ -20,17 +20,13 @@ export default {
 </script>
 
 <style scoped>
-.navbar_top{
-  height: 50px;
 
-}
 .nav_link {
   text-transform: uppercase;
   font-weight: 500;
   font-size: 13px;
   position: relative; 
-  min-width: 50px;
-  height: 50px;
+  top:0;
 }
 .nav_link:hover {
   text-decoration: none;
